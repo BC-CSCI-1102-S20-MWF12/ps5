@@ -95,6 +95,16 @@ The first two changes should be straightforward. The third change will be a litt
    // Push it onto the the mathstack Stack.
 ```
 
+This is what a run of the `Postfix` class should look like. You can just assume that users will enter their postfix expressions carefully. You do not need to error check.
+
+```java
+[bash src]$ java Postfix
+Enter an expression to evaluate:
+2/3 1/4 * 1/5 +
+11/30
+[bash src]$
+```
+
 ---
 
 ## Pushing and verifying your submission
