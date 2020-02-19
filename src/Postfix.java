@@ -5,7 +5,7 @@ public class Postfix {
   public static void main(String[] args) {
 
     // Create a stack of Double objects
-    BCStack<Double> ss = new BCStackArray<Double>();
+    BCStack<Double> ss = new BCStackLinkedList<Double>();
 
     // Get input from user.
     System.out.println("Enter an expression to evaluate: ");
