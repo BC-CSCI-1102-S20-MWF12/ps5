@@ -65,9 +65,9 @@ public class FractionClass implements Fraction {
     System.out.format("%s - %s = %s%n", r1, r2, r4);       // 2/15
     System.out.format("%s * %s = %s%n", r1, r2, r5);       // 1/15
     System.out.format("%s / %s = %s%n", r1, r2, r6);       // 5/3
-    if (r8 == 1) {
+    if (r8 > 0) {
       System.out.println(r1 + " > " + r2);
-    } else if (r8 == 1) {
+    } else if (r8 < 0) {
       System.out.println(r1 + " < " + r2);
     } else {
       System.out.println(r1 + " = " + r2);
